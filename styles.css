@@ -3,9 +3,6 @@
 body {
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;
-  min-width: 425px;
-  width: auto !important;
-  width: 425px;
 }
 
 canvas {
@@ -31,94 +28,65 @@ canvas {
 }
 
 #greeting-text {
-  position: absolute;
-  font-size: 2.7em;
-  top: 25%;
-  left: 50%;
+  font-size: 30px;
   font-family: "Ubuntu", sans-serif;
   color: white;
-}
-
-#name-text {
-  position: absolute;
-  font-size: 16px;
-  color: white;
-  top: 34%;
-  left: 50%;
 }
 
 #intro-text {
   position: absolute;
   font-size: 16px;
   color: white;
-  top: 38%;
+  top: 50%;
   left: 50%;
+  text-align: center;
+  height: 130px;
+  width: 200px;
+  box-sizing: border-box;
+  margin-left: -100px;
+  margin-top: -65px;
 }
 
 #avatar-img {
   position: absolute;
-  height: 250px;
-  width: auto;
-  top: 20%;
-  left: 32%;
-  border-radius: 100px;
+  height: 220px;
+  width: 166px;
+  top: 25%;
+  margin-top: -110px;
+  left: 50%;
+  margin-left: -83px;
+  box-sizing: border-box;
+  border-radius: 100%;
 }
 
 #social-links {
   position: absolute;
-  top: 41%;
+  top: 80%;
+  margin-top: -39px;
   left: 50%;
+  height: 78px;
+  width: 250px;
+  margin-left: -125px;
+  box-sizing: border-box;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
 #social-links i {
   color: white;
   font-size: 5em;
-  padding-right: 16px;
+  padding: 8px;
 }
 
 #copyright {
   position: absolute;
   color: white;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
+  width: 220px;
+  left: 50%;
+  margin-left: -110px;
   font-size: 12px;
   font-weight: normal;
-}
-
-@media screen and (max-width: 1100px) {
-  #avatar-img {
-    left: 25%;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  #avatar-img {
-    height: 175px;
-    left: 38%;
-    top: 12%;
-  }
-
-  #greeting-text{
-    left: 35%;
-    top: 50%;
-  }
-
-  #name-text{
-    left: 35%;
-    top: 59%;
-  }
-
-  #intro-text{
-    left: 35%;
-    top: 64%;
-  }
-
-  #social-links{
-    left: 35%;
-    top: 68%;
-  }
+  bottom: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
