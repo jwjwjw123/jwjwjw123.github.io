@@ -3,7 +3,7 @@
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 80,
+            "value": 50,
             "density": {
                 "enable": true,
                 "value_area": 800
@@ -84,7 +84,7 @@ particlesJS("particles-js", {
         },
         "modes": {
             "grab": {
-                "distance": 400,
+                "distance": 200,
                 "line_linked": {
                     "opacity": 1
                 }
@@ -97,7 +97,7 @@ particlesJS("particles-js", {
                 "speed": 3
             },
             "repulse": {
-                "distance": 119.8801198801199,
+                "distance": 200,
                 "duration": 0.4
             },
             "push": {
