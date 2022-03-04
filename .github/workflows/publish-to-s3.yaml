@@ -27,8 +27,8 @@ jobs:
         run: |
           aws s3 sync ./src s3://samjingwen.io
 
-#      - name: Invalidate CloudFront Cache
-#        run: |
-#          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
           
 
